@@ -1,0 +1,32 @@
+.item{
+
+}
+
+.status {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.active {
+  composes: status;
+  background-color: green;
+}
+
+.offline{
+  composes: status;
+  background-color: red;
+}
+
+
+.avatar{
+  width: 100px;
+  height: 100px;
+
+}
+
+.name{
+text-align: center;
+font-size: 32px;
+}
